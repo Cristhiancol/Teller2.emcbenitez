@@ -5,7 +5,7 @@
     background-color: #13a4a4;
 
 }
-.main-nav {
+.main-nav__item {
     display: inline-block;
 }
 .main-nav a {
@@ -15,3 +15,15 @@
     text-decoration: none;
 
 }
+.main-nav__item a:hover {
+    color: blue;
+
+}
+.main-nav__item a:active {
+    color: red;
+}
+
+.main-nav__item a::after {
+    content: "|";
+}
+    
